@@ -13,6 +13,7 @@ const Navigation = React.forwardRef((props, ref) => {
   const navbarMenuRef = React.useRef();
   const navbarDimensions = useResizeObserver(navbarMenuRef);
   const navBottom = navbarDimensions ? navbarDimensions.bottom : 0;
+  const textClass = !isTop ? "text-dark" : "text-white";
   useScrollPosition(
     ({ prevPos, currPos }) => {
       if (!navbarDimensions) return;
@@ -40,7 +41,7 @@ const Navigation = React.forwardRef((props, ref) => {
       expand="lg"
     >
       <Navbar.Brand
-        className="navbar-brand"
+        className={`navbar-brand ${!isTop ? "text-dark" : "text-white"}`}
         href={process.env.PUBLIC_URL + "/#home"}
       >
         {`<${mainBody.firstName} />`}
@@ -54,12 +55,15 @@ const Navigation = React.forwardRef((props, ref) => {
             </NavLink>
           } */}
           {repos.show && (
-            <NavLink href={process.env.PUBLIC_URL + "/#projects"}>
+            <NavLink
+              className={`${textClass}`}
+              href={process.env.PUBLIC_URL + "/#projects"}
+            >
               Projects
             </NavLink>
           )}
           <NavLink
-            className="nav-item lead"
+            className={`${textClass}`}
             href={about.resume}
             target="_blank"
             rel="noreferrer noopener"
@@ -68,7 +72,7 @@ const Navigation = React.forwardRef((props, ref) => {
           </NavLink>
           {about.show && (
             <NavLink
-              className="nav-item lead"
+              className={`${textClass}`}
               href={process.env.PUBLIC_URL + "/#aboutme"}
             >
               About
@@ -76,7 +80,7 @@ const Navigation = React.forwardRef((props, ref) => {
           )}
           {skills.show && (
             <NavLink
-              className="nav-item lead"
+              className={`${textClass}`}
               href={process.env.PUBLIC_URL + "/#skills"}
             >
               Skills
