@@ -33,10 +33,10 @@ code {
   );*/
 
   background-size: 400% 400%;
-  -webkit-animation: BackgroundAnimation 30s ease infinite;
-  -moz-animation: BackgroundAnimation 30s ease infinite;
-  -o-animation: BackgroundAnimation 30s ease infinite;
-  animation: BackgroundAnimation 30s ease infinite;
+  -webkit-animation: BackgroundAnimation 60s ease-in infinite;
+  -moz-animation: BackgroundAnimation 60s ease-in infinite;
+  -o-animation: BackgroundAnimation 60s ease-in infinite;
+  animation: BackgroundAnimation 60s ease-in infinite;
   height: 100%;
 }
 
