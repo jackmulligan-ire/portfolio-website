@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Typist from 'react-typist-component';
+import Typist from "react-typist-component";
 import { Jumbotron } from "./migration";
 
 const MainBody = React.forwardRef(
@@ -15,15 +15,13 @@ const MainBody = React.forwardRef(
         }}
         className="title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
       >
-        <div id="stars"></div>
+        {/* <div id="stars"></div> */}
         <Container className="text-center">
           <h1 ref={ref} className="display-1">
             {title}
           </h1>
           <Typist>
-            <div className="lead typist">
-              {message}
-            </div>
+            <div className="lead typist">{message}</div>
           </Typist>
           <div className="p-5">
             {icons.map((icon, index) => (
