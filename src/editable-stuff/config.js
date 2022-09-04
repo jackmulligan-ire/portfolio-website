@@ -58,6 +58,14 @@ const projects = {
       logoURL: "cvtp-logo",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at massa finibus, eleifend nisl sit amet, interdum mi. Mauris in lacinia eros. Donec at sapien justo. Duis ante risus, suscipit maximus rhoncus eu, elementum et sapien.",
+      skills: [
+        "React",
+        "Bootstrap",
+        "JavaScript",
+        "Sass",
+        "Jest",
+        "Testing Library",
+      ],
       buttonsInfo: [
         {
           kind: "live",
@@ -74,6 +82,15 @@ const projects = {
       logoURL: "bus-me-logo",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at massa finibus, eleifend nisl sit amet, interdum mi. Mauris in lacinia eros. Donec at sapien justo. Duis ante risus, suscipit maximus rhoncus eu, elementum et sapien.",
+      skills: [
+        "React",
+        "Material UI",
+        "TypeScript",
+        "Jest",
+        "Testing Library",
+        "Django",
+        "PostgreSQL",
+      ],
       buttonsInfo: [
         {
           kind: "live",

@@ -14,6 +14,7 @@ const Project = ({ heading, projects }) => {
               title={project.title}
               logoURL={project.logoURL}
               description={project.description}
+              skills={project.skills}
               buttonsInfo={project.buttonsInfo}
             />
           ))}
