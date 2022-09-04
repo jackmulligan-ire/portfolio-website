@@ -49,16 +49,43 @@ const about = {
 };
 
 // PROJECTS SECTION
-// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
-//      i.e: reposLength: 0,
-// If you want to display specfic projects, add the repository names,
-//      i.e ["repository-1", "repo-2"]
-const repos = {
+const projects = {
   show: true,
   heading: "Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  data: [
+    {
+      title: "Critics vs. The People",
+      logoURL: "cvtp-logo",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at massa finibus, eleifend nisl sit amet, interdum mi. Mauris in lacinia eros. Donec at sapien justo. Duis ante risus, suscipit maximus rhoncus eu, elementum et sapien.",
+      buttonsInfo: [
+        {
+          kind: "live",
+          url: "https://jackmulligan-ire.github.io/critics-versus-people/",
+        },
+        {
+          kind: "readme",
+          url: "https://github.com/jackmulligan-ire/critics-versus-people/blob/main/README.md",
+        },
+      ],
+    },
+    {
+      title: "Bus Me",
+      logoURL: "bus-me-logo",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at massa finibus, eleifend nisl sit amet, interdum mi. Mauris in lacinia eros. Donec at sapien justo. Duis ante risus, suscipit maximus rhoncus eu, elementum et sapien.",
+      buttonsInfo: [
+        {
+          kind: "live",
+          url: "https://ipa-002.ucd.ie/",
+        },
+        {
+          kind: "readme",
+          url: "https://github.com/jackmulligan-ire/bus-me/blob/main/README.md",
+        },
+      ],
+    },
+  ],
 };
 
 // Leadership SECTION
@@ -146,7 +173,7 @@ export {
   navBar,
   mainBody,
   about,
-  repos,
+  projects,
   skills,
   leadership,
   getInTouch,
