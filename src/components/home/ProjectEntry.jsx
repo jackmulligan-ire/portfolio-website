@@ -9,7 +9,6 @@ const ProjectEntry = ({ title, logoID, description, skills, buttonsInfo }) => {
       <Card className="p-0 border-0">
         <div id={`${logoID}`} className="card-img">
           <img
-            className="w-100"
             src={require(`../../assets/img/${logoID}.png`)}
             alt="CVTP logo"
           />
