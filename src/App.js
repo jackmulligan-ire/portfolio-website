@@ -33,9 +33,6 @@ const Home = React.forwardRef((props, ref) => {
         icons={mainBody.icons}
         ref={ref}
       />
-      {projects.show && (
-        <Project heading={projects.heading} projects={projects.data} />
-      )}
       {about.show && (
         <AboutMe
           heading={about.heading}
@@ -44,6 +41,9 @@ const Home = React.forwardRef((props, ref) => {
           imgSize={about.imageSize}
           resume={about.resume}
         />
+      )}
+      {projects.show && (
+        <Project heading={projects.heading} projects={projects.data} />
       )}
       {experiences.show && <Experience experiences={experiences} />}
       {leadership.show && (

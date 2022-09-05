@@ -38,12 +38,12 @@ const mainBody = {
 //         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 
 const about = {
-  show: false,
+  show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
-  imageSize: 375,
+  imageLink: require("../assets/img/my-photo.jpg"),
+  imageSize: 350,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+    "I’m a 2023 graduate from the MSc in Computer Science (Conv.) at University College Dublin having previously had a career in tech in marketing. I’m currently focused on web development but I’m also excited by all things data engineering, being a data nerd! I love to learn new languages and speak fluent German, having spent a few years living in Germany.",
   resume:
     "https://docs.google.com/document/d/1AtWiN7oR3ujFBrPmc9Ln6ucEZIYBDURa/edit?usp=sharing",
 };
