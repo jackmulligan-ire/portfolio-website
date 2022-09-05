@@ -71,7 +71,7 @@ const projects = {
       ],
     },
     {
-      title: "Bus Me",
+      title: "BusMe!",
       logoID: "bus-me-logo",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at massa finibus, eleifend nisl sit amet, interdum mi. Mauris in lacinia eros. Donec at sapien justo. Duis ante risus, suscipit maximus rhoncus eu, elementum et sapien.",
