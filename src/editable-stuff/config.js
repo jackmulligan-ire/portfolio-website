@@ -54,27 +54,10 @@ const projects = {
   heading: "Projects",
   data: [
     {
-      title: "Critics vs. The People",
-      logoID: "cvtp-logo",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at massa finibus, eleifend nisl sit amet, interdum mi. Mauris in lacinia eros. Donec at sapien justo. Duis ante risus, suscipit maximus rhoncus eu, elementum et sapien.",
-      skills: ["React", "Bootstrap", "JavaScript", "Sass", "Jest"],
-      buttonsInfo: [
-        {
-          kind: "live",
-          url: "https://jackmulligan-ire.github.io/critics-versus-people/",
-        },
-        {
-          kind: "readme",
-          url: "https://github.com/jackmulligan-ire/critics-versus-people/blob/main/README.md",
-        },
-      ],
-    },
-    {
       title: "BusMe!",
       logoID: "bus-me-logo",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at massa finibus, eleifend nisl sit amet, interdum mi. Mauris in lacinia eros. Donec at sapien justo. Duis ante risus, suscipit maximus rhoncus eu, elementum et sapien.",
+        "BusMe creates journey time predictions for Dublin Bus services by using machine learning models. It was vital to provide a convincing value proposition to user as Google Maps is the incumbent in the space. The focus was therefore placed on shipping features such as route visualisations and journey time analytics. BusMe was developed as part of a group project for the MSc Computer Science (Conv.) at University College Dublin.",
       skills: ["React", "Material UI", "TypeScript", "Django"],
       buttonsInfo: [
         {
@@ -84,6 +67,23 @@ const projects = {
         {
           kind: "readme",
           url: "https://github.com/jackmulligan-ire/bus-me/blob/main/README.md",
+        },
+      ],
+    },
+    {
+      title: "Critics vs. The People",
+      logoID: "cvtp-logo",
+      description:
+        "Compare the aggregate score given by viewers and reviewers for movies listed on the Open Movie Database. The app is designed to be engaging: Neon colours are presented against a pitch-black background and randomly-selected phrases accompany the landing page and load spinner. Built using Test-driven Development!",
+      skills: ["React", "Bootstrap", "JavaScript", "Sass", "Jest"],
+      buttonsInfo: [
+        {
+          kind: "live",
+          url: "https://jackmulligan-ire.github.io/critics-versus-people/",
+        },
+        {
+          kind: "readme",
+          url: "https://github.com/jackmulligan-ire/critics-versus-people/blob/main/README.md",
         },
       ],
     },

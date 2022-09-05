@@ -10,7 +10,7 @@ const Project = ({ heading, projects }) => {
         <h2 className="display-4 pb-5 text-center">{heading}</h2>
         <Row className="justify-content-center">
           {projects.map((project) => (
-            <Row className="mb-3">
+            <Row className="mb-4 mb-lg-5 card-row">
               <ProjectEntry
                 title={project.title}
                 logoID={project.logoID}

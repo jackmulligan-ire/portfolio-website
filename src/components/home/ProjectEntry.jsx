@@ -1,5 +1,6 @@
 import ProjectButton from "./ProjectButton";
 import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 
 const ProjectEntry = ({ title, logoID, description, skills, buttonsInfo }) => {
@@ -18,9 +19,11 @@ const ProjectEntry = ({ title, logoID, description, skills, buttonsInfo }) => {
             <h5 className="text-center mt-2">{`${skills.join(" – ")}`}</h5>
           </Row>
           <Row>
-            <p className="text-justify p-0">{description}</p>
+            <p className="text-justify">{description}</p>
             {buttonsInfo.map((button) => (
-              <ProjectButton kind={button.kind} buttonLink={button.url} />
+              <Col xs="12" md="6" className="pr-md-">
+                <ProjectButton kind={button.kind} buttonLink={button.url} />
+              </Col>
             ))}
           </Row>
         </Card.Body>
