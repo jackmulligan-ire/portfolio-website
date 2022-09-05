@@ -8,11 +8,11 @@ const Project = ({ heading, projects }) => {
     <Jumbotron fluid id="projects" className="bg-light m-0">
       <Container className="">
         <h2 className="display-4 pb-5 text-center">{heading}</h2>
-        <Row>
+        <Row className="justify-content-center">
           {projects.map((project) => (
             <ProjectEntry
               title={project.title}
-              logoURL={project.logoURL}
+              logoID={project.logoID}
               description={project.description}
               skills={project.skills}
               buttonsInfo={project.buttonsInfo}

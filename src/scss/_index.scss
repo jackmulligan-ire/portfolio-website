@@ -131,6 +131,25 @@ code {
   }
 }
 
+.text-justify {
+  text-align: justify !important;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+
+.card-img {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cvtp-logo {
+  background-color: black;
+}
+
 // Blinking cursor idea declarations
 
 // @keyframes cursor-blink {

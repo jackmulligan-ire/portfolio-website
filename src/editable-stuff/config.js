@@ -55,17 +55,10 @@ const projects = {
   data: [
     {
       title: "Critics vs. The People",
-      logoURL: "cvtp-logo",
+      logoID: "cvtp-logo",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at massa finibus, eleifend nisl sit amet, interdum mi. Mauris in lacinia eros. Donec at sapien justo. Duis ante risus, suscipit maximus rhoncus eu, elementum et sapien.",
-      skills: [
-        "React",
-        "Bootstrap",
-        "JavaScript",
-        "Sass",
-        "Jest",
-        "Testing Library",
-      ],
+      skills: ["React", "Bootstrap", "JavaScript", "Sass", "Jest"],
       buttonsInfo: [
         {
           kind: "live",
@@ -79,18 +72,10 @@ const projects = {
     },
     {
       title: "Bus Me",
-      logoURL: "bus-me-logo",
+      logoID: "bus-me-logo",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at massa finibus, eleifend nisl sit amet, interdum mi. Mauris in lacinia eros. Donec at sapien justo. Duis ante risus, suscipit maximus rhoncus eu, elementum et sapien.",
-      skills: [
-        "React",
-        "Material UI",
-        "TypeScript",
-        "Jest",
-        "Testing Library",
-        "Django",
-        "PostgreSQL",
-      ],
+      skills: ["React", "Material UI", "TypeScript", "Django"],
       buttonsInfo: [
         {
           kind: "live",

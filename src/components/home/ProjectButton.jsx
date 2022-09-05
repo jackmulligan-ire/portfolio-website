@@ -4,7 +4,7 @@ const ProjectButton = ({ kind, buttonLink }) => {
 
   return (
     <a
-      className={`btn ${buttonClass}`}
+      className={`btn ${buttonClass} mb-2 py-2`}
       href={buttonLink}
       role="button"
       target="_blank"
