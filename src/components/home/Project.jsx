@@ -10,13 +10,15 @@ const Project = ({ heading, projects }) => {
         <h2 className="display-4 pb-5 text-center">{heading}</h2>
         <Row className="justify-content-center">
           {projects.map((project) => (
-            <ProjectEntry
-              title={project.title}
-              logoID={project.logoID}
-              description={project.description}
-              skills={project.skills}
-              buttonsInfo={project.buttonsInfo}
-            />
+            <Row className="mb-3">
+              <ProjectEntry
+                title={project.title}
+                logoID={project.logoID}
+                description={project.description}
+                skills={project.skills}
+                buttonsInfo={project.buttonsInfo}
+              />
+            </Row>
           ))}
         </Row>
       </Container>
