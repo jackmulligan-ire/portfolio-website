@@ -43,7 +43,7 @@ const about = {
   imageLink: require("../assets/img/my-photo.jpg"),
   imageSize: 350,
   message:
-    "I’m a 2023 graduate from the MSc in Computer Science (Conv.) at University College Dublin having previously had a career in tech in marketing. I’m currently focused on web development but I’m also excited by all things data engineering, being a data nerd! I love to learn new languages and speak fluent German, having spent a few years living in Germany.",
+    "I’m a 2023 graduate from the MSc in Computer Science (Conv.) at University College Dublin having previously had a career in tech in marketing. I’m currently focused on web development but I’m also excited by all things data engineering, being a data nerd! I love to learn new languages and speak fluent German, having spent a few years living in Germany. I'm currently looking for full-time software engineering position in web development or data engineering!",
   resume:
     "https://docs.google.com/document/d/1AtWiN7oR3ujFBrPmc9Ln6ucEZIYBDURa/edit?usp=sharing",
 };
@@ -142,11 +142,11 @@ const skills = {
 
 // GET IN TOUCH SECTION
 const getInTouch = {
-  show: true,
-  heading: "Get In Touch",
+  show: false,
+  heading: "Let's Talk!",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for full-time software engineering position in web development or data engineering! If you know of any positions available or just want to say hi, please feel free to email me at: ",
+  email: "mulligja1@gmail.com",
 };
 
 const experiences = {

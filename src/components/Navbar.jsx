@@ -3,7 +3,13 @@ import { useScrollPosition } from "../hooks/useScrollPosition";
 import useResizeObserver from "../hooks/useResizeObserver";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { mainBody, projects, about, skills } from "../editable-stuff/config.js";
+import {
+  mainBody,
+  projects,
+  about,
+  skills,
+  getInTouch,
+} from "../editable-stuff/config.js";
 import { NavLink } from "./home/migration";
 
 const Navigation = React.forwardRef((props, ref) => {
@@ -64,14 +70,6 @@ const Navigation = React.forwardRef((props, ref) => {
               Projects
             </NavLink>
           )}
-          <NavLink
-            className={`${textClass}`}
-            href={about.resume}
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            CV
-          </NavLink>
           {about.show && (
             <NavLink
               className={`${textClass}`}
@@ -88,6 +86,22 @@ const Navigation = React.forwardRef((props, ref) => {
               Skills
             </NavLink>
           )}
+          {getInTouch.show && (
+            <NavLink
+              className={`${textClass}`}
+              href={process.env.PUBLIC_URL + "/#contact"}
+            >
+              Contact
+            </NavLink>
+          )}
+          <NavLink
+            className={`${textClass}`}
+            href={about.resume}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            CV
+          </NavLink>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
