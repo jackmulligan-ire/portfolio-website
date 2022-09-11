@@ -90,30 +90,6 @@ const projects = {
   ],
 };
 
-// Leadership SECTION
-const leadership = {
-  show: false,
-  heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
-  images: [
-    {
-      img: require("../editable-stuff/hashirshoaeb.png"),
-      label: "First slide label",
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-    },
-    {
-      img: require("../editable-stuff/hashirshoaeb.png"),
-      label: "Second slide label",
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-    },
-  ],
-  imageSize: {
-    width: "615",
-    height: "450",
-  },
-};
-
 // SKILLS SECTION
 const skills = {
   show: false,
@@ -149,35 +125,4 @@ const getInTouch = {
   email: "mulligja1@gmail.com",
 };
 
-const experiences = {
-  show: false,
-  heading: "Experiences",
-  data: [
-    {
-      role: "Software Engineer", // Here Add Company Name
-      companylogo: require("../assets/img/dell.png"),
-      date: "June 2018 – Present",
-    },
-    {
-      role: "Front-End Developer",
-      companylogo: require("../assets/img/boeing.png"),
-      date: "May 2017 – May 2018",
-    },
-  ],
-};
-
-// Blog SECTION
-// const blog = {
-//   show: false,
-// };
-
-export {
-  navBar,
-  mainBody,
-  about,
-  projects,
-  skills,
-  leadership,
-  getInTouch,
-  experiences,
-};
+export { navBar, mainBody, about, projects, skills, getInTouch };
