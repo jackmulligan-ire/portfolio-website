@@ -1,4 +1,3 @@
-import Container from "react-bootstrap/Container";
 import { Jumbotron } from "./migration";
 import Row from "react-bootstrap/Row";
 import ProjectEntry from "./ProjectEntry";
