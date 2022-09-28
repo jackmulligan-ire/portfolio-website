@@ -54,23 +54,6 @@ const projects = {
   heading: "Projects",
   data: [
     {
-      title: "BusMe!",
-      logoID: "bus-me-logo",
-      description:
-        "BusMe creates journey time predictions for Dublin Bus services by using machine learning models. It was vital to provide a convincing value proposition to user as Google Maps is the incumbent in the space. The focus was therefore placed on shipping features such as route visualisations and journey time analytics. BusMe was developed as part of a group project for the MSc Computer Science (Conv.) at University College Dublin.",
-      skills: ["React", "Material UI", "TypeScript", "Django"],
-      buttonsInfo: [
-        {
-          kind: "live",
-          url: "https://ipa-002.ucd.ie/",
-        },
-        {
-          kind: "readme",
-          url: "https://github.com/jackmulligan-ire/bus-me/blob/main/README.md",
-        },
-      ],
-    },
-    {
       title: "Critics vs. The People",
       logoID: "cvtp-logo",
       description:
@@ -78,12 +61,44 @@ const projects = {
       skills: ["React", "Bootstrap", "JavaScript", "Sass", "Jest"],
       buttonsInfo: [
         {
+          kind: "readme",
+          url: "https://github.com/jackmulligan-ire/critics-versus-people/",
+        },
+        {
           kind: "live",
           url: "https://jackmulligan-ire.github.io/critics-versus-people/",
         },
+      ],
+    },
+    {
+      title: "BusMe!",
+      logoID: "bus-me-logo",
+      description:
+        "BusMe creates journey time predictions for Dublin Bus services by using machine learning models. It was vital to provide a convincing value proposition to user as Google Maps is the incumbent in the space. The focus was therefore placed on shipping features such as route visualisations and journey time analytics. BusMe was developed as part of a group project for the MSc Computer Science (Conv.) at University College Dublin.",
+      skills: ["React", "Material UI", "TypeScript", "Django"],
+      buttonsInfo: [
         {
           kind: "readme",
-          url: "https://github.com/jackmulligan-ire/critics-versus-people/blob/main/README.md",
+          url: "https://github.com/jackmulligan-ire/bus-me/",
+        },
+      ],
+    },
+    {
+      title: "Altas",
+      logoID: "altas-logo",
+      description:
+        "Altas is a Python package that was developed to gather data on a video sharing platform. The aim of the package is to enable the analysis of the data gathered and to allow this to be done for a large sample of creators. Analysis questions to be answered include identifying topics discussed by each creator, determining how these topics shifted over time, as well as co-occurrence of topics.",
+      skills: [
+        "Python",
+        "Selenium",
+        "Google Cloud Platform",
+        "pandas",
+        "Ubuntu",
+      ],
+      buttonsInfo: [
+        {
+          kind: "readme",
+          url: "https://github.com/jackmulligan-ire/altas",
         },
       ],
     },
