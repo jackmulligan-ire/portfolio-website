@@ -102,6 +102,19 @@ const projects = {
         },
       ],
     },
+    {
+      title: "PPR House",
+      logoID: "ppr-house-logo",
+      description:
+        "PPR House is the Property Price Register (PPR) transformed to a data warehouse model after being retrieved at source via an EtLT pipeline. It aims to make analysing the PPR easier for analysts, while also being the basis to build out a future platform for building dashboards about the Irish property market.",
+      skills: ["Python", "PostgreSQL", "AWS S3", "Docker", "plsql"],
+      buttonsInfo: [
+        {
+          kind: "readme",
+          url: "https://github.com/jackmulligan-ire/ppr-pipeline",
+        },
+      ],
+    },
   ],
 };
 
